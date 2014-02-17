@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+			/* PRINT */
+			/* MOB */
+			/* SCREEN */
+
+
+			/* GLOBAL */
+			body {
+				color:#333;
+				font-family: verdana, sans-serif;
+				font-size:12px;
+				line-height:16px;
+				background-color:whitesmoke;
+				}
+				
+			p {
+				padding:0;
+				margin: 0px 0 12px 0;
+				font-size:12px;
+				line-height:16px;
+				}
+			h2 {
+				font-size:12px;
+				line-height:24px;
+				font-family: verdana, sans-serif;
+				font-weight:bold; margin:0px; padding:0px;
+				}
+			#web {
+				margin: 50px auto 0 auto;
+				width:860px;
+				padding:10px;
+				-moz-box-shadow: 0 0 1em #ccc;
+				-webkit-box-shadow: 0 0 1em #ccc;
+	        	box-shadow: 0 0 1em #ccc; 
+				background-color:#FFF;
+				}
+			#mob {	
+				margin: 10px auto 0 auto;
+				width:400px; 
+				-moz-box-shadow: 0 0 1em #eee;
+				-webkit-box-shadow: 0 0 1em #eee;
+	        	box-shadow: 0 0 1em #eee;
+				background-color:#FFF;
+				min-height:610px;
+				}
+			div#logoImage {	
+				margin:0 0 20px;
+				-moz-box-shadow: 0 0 1em #eee;
+				-webkit-box-shadow: 0 0 1em #eee;
+	        	box-shadow: 0 0 1em #eee;
+				}
+			h1 {
+				font-family:"Gill Sans",verdana, sans-serif;
+				font-size:31px;
+				line-height:35px;
+				font-weight:bold;
+				margin:20px 0 0;
+				}
+				 footer {
+					background-color: #333;	
+					font-family: verdana, sans-serif;
+					font-size:10px;
+					line-height:16px;
+					background-color:whitesmoke;
+					width: 100%;
+					bottom: 0;
+					position: fixed;
+				}
+				
+				ul, li {margin:6px; padding:0px;}
+				
+			div.credit {font-size:12px; line-height:16px; margin:20px 0 0 0; color:#333; }
+			
+			a:link, a:visited { text-decoration:underline; color:#00F}
+			
+			a:hover,  a:active { text-decoration:none; color:#333}
+			
+			.contentgreen, .contentred, .contentblue  { padding:20px 20px 50px 20px;}
+			
+			div#aexblock { 
+			font-size:12px;
+			line-height:16px;
+			margin:0 0 10px;
+			min-height:40px;
+			}
+			
+			div.aex { float:left; margin: 0 5px 0 0; font-size:12px; line-height:16px;}
+			
+			div.intro {display:block; padding:20px 0 10px; font-size:12px; line-height:16px;}
+
+			div.intro p {font-size:12px; line-height:16px;}
+
+			div.intro a:link, div.intro a:visited, div.credit a:link, div.credit a:visited { color:#333; text-decoration:underline;}
+			
+			div.intro a:hover, div.intro a:active, div.credit a:hover, div.credit a:active { color:#333; text-decoration:none;}
+			
+			.active {color:#000;}
+			
+			div.lang {padding:0px 0 20px 0px;}
+
+
+			/* UP */
+			
+			div.contentgreen h1 {color:#1DFF17;}
+			div.contentgreen a:link, .contentgreen a:visited { color:#1DFF17;}
+			div.contentgreen a:hover, .contentgreen a:active { color:#333;}
+			div.green {color:#1DFF17; float:left;clear:right;margin: 0 5px 0 0; font-size:12px; line-height:16px;}
+
+			/* DOWN */
+			div.contentred h1 {color:#FF0861;}
+			div.contentred a:link, .contentred a:visited { color:#FF0861;}
+			div.contentred a:hover, .contentred a:active { color:#333;}
+			div.red {color:#FF0861; float:left;clear:right;margin: 0 5px 0 0; font-size:12px; line-height:16px;}
+
+
+			/* CLOSED */
+			div.contentblue h1 {color:#0013FF;}
+			div.contentblue a:link, .contentblue a:visited { color:#0013FF;}
+			div.contentblue a:hover, .contentblue a:active { color:#333;}
+			div.blue {color:#0013FF; float:left;clear:right;margin: 0 5px 0 0; font-size:12px; line-height:16px;}
+			
+			
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
+Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ <http://www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/> */
+@media screen and (max-width: 480px) {
+			#web {
+				width:400px;
+				background-color:transparent;
+				background:none;
+				margin: 0 ;
+				padding:10px;
+				-moz-box-shadow:none;
+				-webkit-box-shadow: none;
+	        	box-shadow: none; 
+
+
+	} }  
+
+
+
