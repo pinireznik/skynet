@@ -3,6 +3,9 @@
 function run($ip)
 {
 
+$output = shell_exec('serf leave 2>&1');
+echo "<pre>$output</pre>";
+
 ob_implicit_flush(true);ob_end_flush();
 
 $descriptorspec = array(

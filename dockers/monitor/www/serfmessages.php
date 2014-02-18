@@ -7,8 +7,14 @@
 
 <H1>Serf listen</H1>
 
-<?php include("serf_agent.php");?>
-<?php run('172.17.0.2'); ?>
+<?php 
+	echo "Listening on IP " . $_POST["ip"]; 
+?>
+
+<?php 
+ include("serf_agent.php");
+ run($_POST["ip"]); 
+?>
 
 
 

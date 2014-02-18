@@ -10,11 +10,6 @@
 	
 	<script type="text/javascript" language="javascript">
 	
-	function run()
-	{
-		window.open("/run_serf.php","_self")
-	 }
-	
 	</script>
 </head>
 <body>
@@ -27,10 +22,22 @@
 	<H2>Ugly Duckling Serf Message monitor</H2>
 	Hit the button to start to start listening to Serf message (port 7946)
 	<br>
-	<button onclick="run()">Start Listening</button>
+
+	<form action="serfmessages.php" method="post">
+	IP: <input type="text" name="ip"><br>
+	<input type="submit">
+	</form>
 
     <br>
 	<br>
+	
+	<?php include("list_machines.php");?>
+    <?php listmachines(); ?>
+	<br>
+	<br>
+	
+	
+	<?php include("footer.html");?>
 </body>
 </html>
 
