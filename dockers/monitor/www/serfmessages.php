@@ -5,6 +5,13 @@
 </head>
 <body>
 
+<H1>Serf Agents</H1>
+
+<?php 
+ include("serf_agent.php");
+ listagents($_POST["ip"]); 
+?>
+
 <H1>Serf listen</H1>
 
 <?php 
@@ -12,11 +19,8 @@
 ?>
 
 <?php 
- include("serf_agent.php");
- run($_POST["ip"]); 
+ listen($_POST["ip"]); 
 ?>
-
-
 
 <br>
 <br>
