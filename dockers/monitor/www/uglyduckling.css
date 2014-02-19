@@ -101,26 +101,25 @@
 			
 			div.lang {padding:0px 0 20px 0px;}
 
+			div.serflist
+			{
+				width:700px;
+				padding:10px;
+				border:5px solid gray;
+				margin:0px;
+			}
 
-			/* UP */
-			
-			div.contentgreen h1 {color:#1DFF17;}
-			div.contentgreen a:link, .contentgreen a:visited { color:#1DFF17;}
-			div.contentgreen a:hover, .contentgreen a:active { color:#333;}
-			div.green {color:#1DFF17; float:left;clear:right;margin: 0 5px 0 0; font-size:12px; line-height:16px;}
-
-			/* DOWN */
-			div.contentred h1 {color:#FF0861;}
-			div.contentred a:link, .contentred a:visited { color:#FF0861;}
-			div.contentred a:hover, .contentred a:active { color:#333;}
-			div.red {color:#FF0861; float:left;clear:right;margin: 0 5px 0 0; font-size:12px; line-height:16px;}
+			div.serfmsg
+			{
+			   max-height: 400px;
+   				overflow: auto;
+				width:700px;
+				padding:10px;
+				border:5px solid gray;
+				margin:0px;
+			}
 
 
-			/* CLOSED */
-			div.contentblue h1 {color:#0013FF;}
-			div.contentblue a:link, .contentblue a:visited { color:#0013FF;}
-			div.contentblue a:hover, .contentblue a:active { color:#333;}
-			div.blue {color:#0013FF; float:left;clear:right;margin: 0 5px 0 0; font-size:12px; line-height:16px;}
 			
 			
 /* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
