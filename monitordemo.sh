@@ -24,7 +24,7 @@ docker run -d -name node1 uglyduckling.nl/serf
 docker run -d -name node2 -link node1:serf uglyduckling.nl/serf
 
 # start monitoring
-docker run -p $MONITOR_PORT:80 --name="monitor" -d uglyduckling.nl/monitor 
+docker run -p $MONITOR_PORT:80 -name="monitor" -d uglyduckling.nl/monitor 
 
 # open browser with monitor-page
 URL=http://localhost:$MONITOR_PORT
