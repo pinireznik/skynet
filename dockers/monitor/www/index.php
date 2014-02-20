@@ -1,17 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Serf Messaging monitor</title>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
 	
-	<link href="uglyduckling.css" rel="stylesheet" type="text/css" media="screen" />
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<?php include("header.html");?>
+	<?php include("ipFuncs.php");?>
 	
-	<script type="text/javascript" language="javascript">
-	
-	</script>
-</head>
 <body>
 
 	<H1>Serf Messaging monitor</H1>
@@ -25,18 +17,33 @@
 
 	<form action="serfmessages.php" method="post">
 	IP: <input type="text" name="ip"><br>
-	<input type="submit">
+	<input type="submit" value="Start Monitoring">
 	</form>
 
     <br>
 	<br>
 	
-	<?php include("list_machines.php");?>
-    <?php listmachines(); ?>
+	<H2>Network info</H2>
+	Monotor IP = <?php echo getMyIp(); ?>
+   	
+   	<br>   
 	<br>
+	Serf Nodes:
+	<div class="boxstdout">
+		<?php 
+			 getSerfNodes(); 
+		?>
+	</div>
+		
+	<br>   
 	<br>
-	
-	
+	General Network info:
+	<div class="boxstdout">
+		<?php 
+			 getIfConfig(); 
+		?>
+	</div>
+		
 	<?php include("footer.html");?>
 </body>
 </html>

@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<?php include("header.html");?>
-	</head>
-	<body>
 
-		<H1>Serf Agents</H1>
+	<?php include("header.html"); ?>
+	<?php include("serfFuncs.php"); ?>
+<body>
+	<H1>Serf Agents</H1>
 
-<div class="serflist">
+	<div class="boxstdout">
 		<?php 
-		 include("serf_agent.php");
-		 listagents($_POST["ip"]); 
+			listagents($_POST["ip"]); 
 		?>
-</div>
-		<H1>Serf listen</H1>
+	</div>
 
+	<H1>Serf listen</H1>
+
+	<?php 
+		echo "Listening on IP " . $_POST["ip"]; 
+	?>
+
+		<div class="serfmsg">
 		<?php 
-			echo "Listening on IP " . $_POST["ip"]; 
+			listen($_POST["ip"]); 
 		?>
-		
-<div class="serfmsg">
-		<?php 
-		 listen($_POST["ip"]); 
-		?>
-</div>
-		<br>
-		<br>
-		
-		<?php include("footer.html");?>
-	</body>
+	</div>
+	<br>
+	<br>
+
+	<?php include("footer.html");?>
+</body>
 </html>
