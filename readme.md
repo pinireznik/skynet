@@ -4,7 +4,7 @@
 
 ## Getting started
 
-Run rebuild.sh all to build all the containers. To reproduce demo run monitordemo.sh. The demo video
+Run dockers\build.sh all to build all the containers. To reproduce demo run monitordemo.sh. The demo video
 can be found here
 
 ## Introduction
