@@ -5,24 +5,24 @@
 ## Getting started
 
 Run dockers\build.sh all to build all the containers. To reproduce demo run monitordemo.sh. The demo video
-can be found here
+can be found here [http://youtu.be/FenTlq-3nSI](http://youtu.be/FenTlq-3nSI)
 
 ## Introduction
 
-This project consists of set of Dockers that use Serf agents to comunicate with each other.
+This project consists of a set of [Docker](https://www.docker.io/) containers that use 
+[Serf](http://www.serfdom.io/) agents to comunicate with each other.
 Each folder contains:
 
- - build.sh
+ - build.sh (creates the Docker image. This can take a while when first run as large downloads
+maybe needed)
  - start.sh (starts the container(s))
- - stop.sh (stops container) 
+ - stop.sh (stops container and removes the container) 
 
-In some case there are additional scripts to make your live easier
+In some case there are additional scripts to make your life easier.
+
  - restart.sh (stops any running and than starts)
  - rebuild.sh (executes stop, build, run  this can be handy when working 
  on code running inside container)
-
-Build creates the Docker image (this could take a while when first run as large downloads
-maybe needed). Run starts an instance of container(s). Stop stops and removes the instances.
 
 ## Current Models
 
