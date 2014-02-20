@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# taken forn Anton Lindström
+# https://github.com/antonlindstrom/docker-serf
 set -e
 
 export PATH=$PATH:/usr/local/bin
