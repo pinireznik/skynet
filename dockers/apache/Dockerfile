@@ -2,7 +2,7 @@ FROM uglyduckling.nl/serf
 MAINTAINER Jorrit "j.jong@uglyduckling.nl"
 
 RUN apt-get update
-RUN apt-get install -y apache2
+RUN apt-get install -y net-tools apache2
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
