@@ -1,11 +1,11 @@
 ![alt text](http://uglyduckling.nl/email/maillogo.jpg "http://uglyduckling.nl")
 
-# Ugly Duckling DNA prototype
+# Ugly Duckling SkyNet prototype
 
 ## Getting started
 
 Run dockers\build.sh all to build all the containers. To reproduce demo run monitordemo.sh. The demo video
-can be found here [http://youtu.be/FenTlq-3nSI](http://youtu.be/FenTlq-3nSI)
+can be found here [http://youtu.be/HQ08ezUKORw](http://youtu.be/HQ08ezUKORw)
 
 ## Introduction
 
