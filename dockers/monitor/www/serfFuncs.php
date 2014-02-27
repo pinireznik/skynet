@@ -15,7 +15,7 @@ function listen($ip)
 
 	$cwd = '/tmp';
 
-	$process = proc_open('serf agent -join ' . $ip , $descriptorspec, $pipes, $cwd, array());
+	$process = proc_open('serf agent -role=monitor -join ' . $ip , $descriptorspec, $pipes, $cwd, array());
 	echo "<pre>";
 	if (is_resource($process)) {
 		while ($s = fgets($pipes[1])) {
@@ -29,7 +29,7 @@ function listen($ip)
 function listagents($ip)
 {
 	stop();
-	shell_exec('serf agent -join ' . $ip .' > /dev/null 2>/dev/null &');
+	shell_exec('serf agent -role=monitor -join ' . $ip .' > /dev/null 2>/dev/null &');
 	$output = shell_exec('serf members 2>&1');
 	echo "<pre>$output</pre>";
  }
