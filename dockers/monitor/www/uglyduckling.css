@@ -1,13 +1,4 @@
 @charset "UTF-8";
-/* CSS Document */
-
-
-			/* PRINT */
-			/* MOB */
-			/* SCREEN */
-
-
-			/* GLOBAL */
 			body {
 				color:#333;
 				font-family: verdana, sans-serif;
@@ -27,30 +18,6 @@
 				line-height:24px;
 				font-family: verdana, sans-serif;
 				font-weight:bold; margin:0px; padding:0px;
-				}
-			#web {
-				margin: 50px auto 0 auto;
-				width:860px;
-				padding:10px;
-				-moz-box-shadow: 0 0 1em #ccc;
-				-webkit-box-shadow: 0 0 1em #ccc;
-	        	box-shadow: 0 0 1em #ccc; 
-				background-color:#FFF;
-				}
-			#mob {	
-				margin: 10px auto 0 auto;
-				width:400px; 
-				-moz-box-shadow: 0 0 1em #eee;
-				-webkit-box-shadow: 0 0 1em #eee;
-	        	box-shadow: 0 0 1em #eee;
-				background-color:#FFF;
-				min-height:610px;
-				}
-			div#logoImage {	
-				margin:0 0 20px;
-				-moz-box-shadow: 0 0 1em #eee;
-				-webkit-box-shadow: 0 0 1em #eee;
-	        	box-shadow: 0 0 1em #eee;
 				}
 			h1 {
 				font-family:"Gill Sans",verdana, sans-serif;
@@ -77,26 +44,7 @@
 			a:link, a:visited { text-decoration:underline; color:#00F}
 			
 			a:hover,  a:active { text-decoration:none; color:#333}
-			
-			.contentgreen, .contentred, .contentblue  { padding:20px 20px 50px 20px;}
-			
-			div#aexblock { 
-			font-size:12px;
-			line-height:16px;
-			margin:0 0 10px;
-			min-height:40px;
-			}
-			
-			div.aex { float:left; margin: 0 5px 0 0; font-size:12px; line-height:16px;}
-			
-			div.intro {display:block; padding:20px 0 10px; font-size:12px; line-height:16px;}
-
-			div.intro p {font-size:12px; line-height:16px;}
-
-			div.intro a:link, div.intro a:visited, div.credit a:link, div.credit a:visited { color:#333; text-decoration:underline;}
-			
-			div.intro a:hover, div.intro a:active, div.credit a:hover, div.credit a:active { color:#333; text-decoration:none;}
-			
+		
 			.active {color:#000;}
 			
 			div.lang {padding:0px 0 20px 0px;}
@@ -109,16 +57,15 @@
 				margin:0px;
 			}
 
-			div.serfmsg
+			div.serfmsgs
 			{
-			   max-height: 400px;
+			    max-height: 400px;
    				overflow: auto;
 				width:700px;
 				padding:10px;
 				border:5px solid gray;
 				margin:0px;
 			}
-
 
 			
 			
