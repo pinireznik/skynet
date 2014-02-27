@@ -18,7 +18,7 @@
 		echo "Listening on IP " . $_POST["ip"]; 
 	?>
 
-		<div class="serfmsg">
+		<div class="serfmsgs">
 		<?php 
 			listen($_POST["ip"]); 
 		?>

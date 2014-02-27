@@ -1,89 +1,67 @@
 @charset "UTF-8";
-			body {
-				color:#333;
-				font-family: verdana, sans-serif;
-				font-size:12px;
-				line-height:16px;
-				background-color:whitesmoke;
-				}
-				
-			p {
-				padding:0;
-				margin: 0px 0 12px 0;
-				font-size:12px;
-				line-height:16px;
-				}
-			h2 {
-				font-size:12px;
-				line-height:24px;
-				font-family: verdana, sans-serif;
-				font-weight:bold; margin:0px; padding:0px;
-				}
-			h1 {
-				font-family:"Gill Sans",verdana, sans-serif;
-				font-size:31px;
-				line-height:35px;
-				font-weight:bold;
-				margin:20px 0 0;
-				}
-				 footer {
-					background-color: #333;	
-					font-family: verdana, sans-serif;
-					font-size:10px;
-					line-height:16px;
-					background-color:whitesmoke;
-					width: 100%;
-					bottom: 0;
-					position: fixed;
-				}
-				
-				ul, li {margin:6px; padding:0px;}
-				
-			div.credit {font-size:12px; line-height:16px; margin:20px 0 0 0; color:#333; }
-			
-			a:link, a:visited { text-decoration:underline; color:#00F}
-			
-			a:hover,  a:active { text-decoration:none; color:#333}
-		
-			.active {color:#000;}
-			
-			div.lang {padding:0px 0 20px 0px;}
+body {
+	color:#333;
+	font-family: verdana, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	background-color:whitesmoke;
+	}
+	
+p {
+	padding:0;
+	margin: 0px 0 12px 0;
+	font-size:12px;
+	line-height:16px;
+	}
 
-			div.boxstdout
-			{
-				width:700px;
-				padding:10px;
-				border:5px solid gray;
-				margin:0px;
-			}
+h2 {
+	font-size:12px;
+	line-height:24px;
+	font-family: verdana, sans-serif;
+	font-weight:bold; margin:0px; padding:0px;
+	}
 
-			div.serfmsgs
-			{
-			    max-height: 400px;
-   				overflow: auto;
-				width:700px;
-				padding:10px;
-				border:5px solid gray;
-				margin:0px;
-			}
+h1 {
+	font-family:"Gill Sans",verdana, sans-serif;
+	font-size:31px;
+	line-height:35px;
+	font-weight:bold;
+	margin:20px 0 0;
+	}
 
-			
-			
-/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
-Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ <http://www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/> */
-@media screen and (max-width: 480px) {
-			#web {
-				width:400px;
-				background-color:transparent;
-				background:none;
-				margin: 0 ;
-				padding:10px;
-				-moz-box-shadow:none;
-				-webkit-box-shadow: none;
-	        	box-shadow: none; 
+ footer {
+		background-color: #333;	
+		font-family: verdana, sans-serif;
+		font-size:10px;
+		line-height:16px;
+		background-color:whitesmoke;
+		width: 100%;
+		bottom: 0;
+		position: fixed;
+	}
+	
+a:link, a:visited { text-decoration:underline; color:#00F}
 
+a:hover,  a:active { text-decoration:none; color:#333}
 
-	} }  
+.active {color:#000;}
 
+div.lang {padding:0px 0 20px 0px;}
 
+div.boxstdout
+{
+	width:700px;
+	padding:10px;
+	border:5px solid gray;
+	margin:0px;
+}
 
+div.serfmsgs
+{
+	max-height: 400px;
+	overflow: auto;
+	width:700px;
+	padding:10px;
+	border:5px solid gray;
+	margin:0px;
+}
